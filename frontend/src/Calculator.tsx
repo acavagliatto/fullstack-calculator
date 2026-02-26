@@ -1,4 +1,5 @@
-import { useState, FormEvent, ChangeEvent } from 'react';
+import { useState } from 'react';
+import type { FormEvent, ChangeEvent } from 'react';
 import { OPERATIONS } from './types';
 import { calculate } from './api';
 import './Calculator.css';

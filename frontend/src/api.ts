@@ -1,4 +1,4 @@
-import { CalculateRequest, CalculateResponse, ErrorResponse } from './types';
+import type { CalculateRequest, CalculateResponse, ErrorResponse } from './types';
 
 const API_BASE_URL = '/api';
 
