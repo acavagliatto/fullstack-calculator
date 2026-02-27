@@ -412,4 +412,5 @@ go tool cover -html=coverage.out -o coverage.html
 cd frontend
 npm ci
 npm run coverage
-# se genera /coverage (dependiendo del config de vitest)
+
+... se genera /coverage (dependiendo del config de vitest)
