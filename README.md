@@ -402,15 +402,17 @@ MIT License - See LICENSE file for details
 
 ## Coverage
 1. Backend
-
+```bash
 cd backend
 go test ./... -coverprofile=coverage.out
 go tool cover -func=coverage.out
 go tool cover -html=coverage.out -o coverage.html
+```
 
 2. Frontend 
+```bash
 cd frontend
 npm ci
 npm run coverage
-
+```
 ... se genera /coverage (dependiendo del config de vitest)
